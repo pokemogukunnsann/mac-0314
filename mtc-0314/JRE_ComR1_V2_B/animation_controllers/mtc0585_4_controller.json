@@ -1,0 +1,92 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mtc0585_4": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "open": "query.variant >= 1 && query.variant <= 3"
+                        }
+                    ]
+                },
+                "open": {
+                    "transitions": [
+                        {
+                            "default": "query.variant >= 11 && query.variant <= 13"
+                        }
+                    ],
+                    "on_entry": [
+                        "/function mtc/testSound",
+                        "/playsound mtc0585_open @a[r=32,scores={mtc_sid=0}] ~ ~ ~ 10"
+                    ],
+                    "on_exit": [
+                        "/function mtc/testSound",
+                        "/playsound mtc0585_close @a[r=32,scores={mtc_sid=0}] ~ ~ ~ 10"
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc0585_4_trace":{
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "next": "1"
+                        }
+                    ],
+                    "on_entry": [
+                        "/execute if score tick10 mtc_global <= c1 mtc_global run function mtc0585/tick10_4"
+                    ]
+                },
+                "next":{
+                    "transitions": [
+                        {
+                            "default": "1"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc0585_4_spawn":{
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "next": "1"
+                        }
+                    ]
+                },
+                "next":{
+                    "transitions": [
+                        {
+                            "loop1": "1"
+                        }
+                    ],
+                    "on_entry": [
+                       "/execute unless entity @s[tag=mtc_init] run function mtc0585/initTrain"
+                    ]
+                },
+                "loop1":{
+                    "transitions": [
+                        {
+                            "loop2": "1"
+                        }
+                    ],
+                    "on_entry": [
+                       "/function mtc0585/curve_4",
+                       "/execute if entity @s[tag=mtc_air1] run function mtc0585/break1",
+                       "/execute if entity @s[tag=mtc_air2] run function mtc0585/break2"
+                    ]
+                },
+                "loop2":{
+                    "transitions": [
+                        {
+                            "loop1": "1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

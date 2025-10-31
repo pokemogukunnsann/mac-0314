@@ -1,0 +1,547 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mtc:mtc0585_2",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false,
+            "animations": {
+                "door_controller": "controller.animation.mtc0585_1",
+                "trace_controller": "controller.animation.mtc0585_2_trace",
+                "spawn_controller": "controller.animation.mtc0585_1_spawn"
+            },
+            "scripts": {
+                "animate": [
+                    "door_controller",
+                    "trace_controller",
+                    "spawn_controller"
+                ]
+            }
+        },
+        "component_groups": {
+            "closeR": {
+                "minecraft:variant": {
+                    "value": 12
+                }
+            },
+            "openR": {
+                "minecraft:variant": {
+                    "value": 2
+                }
+            },
+            "closeL": {
+                "minecraft:variant": {
+                    "value": 11
+                }
+            },
+            "openL": {
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "closeB": {
+                "minecraft:variant": {
+                    "value": 13
+                }
+            },
+            "openB": {
+                "minecraft:variant": {
+                    "value": 3
+                }
+            },
+            "cp_rev": {
+                "minecraft:can_fly": {}
+            },
+            "cp_mode1": {
+                "minecraft:mark_variant": {
+                    "value": 1
+                }
+            },
+            "cp_mode2": {
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "cp_mode3": {
+                "minecraft:mark_variant": {
+                    "value": 3
+                }
+            },
+            "cp_mode4": {
+                "minecraft:mark_variant": {
+                    "value": 4
+                }
+            },
+            "cp_mode5": {
+                "minecraft:mark_variant": {
+                    "value": 5
+                }
+            },
+            "cp_mode6": {
+                "minecraft:mark_variant": {
+                    "value": 6
+                }
+            },
+            "cp_mode7": {
+                "minecraft:mark_variant": {
+                    "value": 7
+                }
+            },
+            "cp_mode8": {
+                "minecraft:mark_variant": {
+                    "value": 8
+                }
+            },
+            "cp_seat_up": {
+                "minecraft:rideable": {
+                    "seat_count": 22,
+                    "interact_text": "action.interact.ride.minecart",
+                    "pull_in_entities": true,
+                    "seats": [
+                        {
+                            "position": [ -1.1, 0.7, 1.2 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                            "position": [ 1.1, 0.7, 1.2 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                            "position": [ -1.1, 0.7, 4.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                            "position": [ 1.1, 0.7, 4.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                          {
+                            "position": [ -1.1, 0.7, 5.2 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                          "position": [ 1.1, 0.7, 5.2 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ -1.1, 0.7, 6.3 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ 1.1, 0.7, 6.3 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ -1.1, 0.7, 8.9 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ 1.1, 0.7, 8.9 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ -1.1, 0.7, 10 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                          {
+                            "position": [ 1.1, 0.7, 10 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 11.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 11.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 13.7 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 13.7 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 14.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 14.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 15.9 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 15.9 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 18.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 18.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          }
+                    ]
+                }
+            },
+            "cp_seat_dw": {
+                "minecraft:rideable": {
+                    "seat_count": 22,
+                    "interact_text": "action.interact.ride.minecart",
+                    "pull_in_entities": true,
+                    "seats": [
+                        {
+                            "position": [ -1.1, 0.7, 1.2 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                            "position": [ 1.1, 0.7, 1.2 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                            "position": [ -1.1, 0.7, 4.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                            "position": [ 1.1, 0.7, 4.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                          {
+                            "position": [ -1.1, 0.7, 5.2 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                        },
+                        {
+                          "position": [ 1.1, 0.7, 5.2 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ -1.1, 0.7, 6.3 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ 1.1, 0.7, 6.3 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ -1.1, 0.7, 8.9 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ 1.1, 0.7, 8.9 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                        {
+                          "position": [ -1.1, 0.7, 10 ],
+                          "min_rider_count": 0,
+                          "max_rider_count": 22
+                        },
+                          {
+                            "position": [ 1.1, 0.7, 10 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 11.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 11.1 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 13.7 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 13.7 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 14.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 14.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 15.9 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 15.9 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ 1.1, 0.7, 18.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          },
+                          {
+                            "position": [ -1.1, 0.7, 18.8 ],
+                            "min_rider_count": 0,
+                            "max_rider_count": 22
+                          }
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "mtc_body",
+                    "mtc_obj",
+                    "mtc_runnable"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 1.1,
+                "height": 3.0
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:fall_damage": {
+                "value": 0
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:fire_immune": {},
+            "minecraft:rail_movement": {
+                "max_speed": 0.0
+            },
+            "minecraft:physics": {
+                "has_collision": true,
+                "has_gravity": false
+            },
+            "minecraft:tick_world": {
+                "radius": 2,
+                "never_despawn": true
+            }
+        },
+        "events": {
+            "openR": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "openR"
+                    ]
+                }
+            },
+            "closeR": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "closeR"
+                    ]
+                }
+            },
+            "openL": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "openL"
+                    ]
+                }
+            },
+            "closeL": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "closeL"
+                    ]
+                }
+            },
+            "openB": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "openB"
+                    ]
+                }
+            },
+            "closeB": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "closeB"
+                    ]
+                }
+            },
+            "mode1": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode1",
+                        "cp_seat_up"
+                    ]
+                }
+            },
+            "mode2": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode2",
+                        "cp_seat_dw"
+                    ]
+                }
+            },
+            "mode3": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode3",
+                        "cp_seat_up"
+                    ]
+                }
+            },
+            "mode4": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode4",
+                        "cp_seat_dw"
+                    ]
+                }
+            },
+            "mode5": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode5",
+                        "cp_seat_up"
+                    ]
+                }
+            },
+            "mode6": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode6",
+                        "cp_seat_dw"
+                    ]
+                }
+            },
+            "mode7": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode7",
+                        "cp_seat_up"
+                    ]
+                }
+            },
+            "mode8": {
+                "remove": {
+                    "component_groups": []
+                },
+                "add": {
+                    "component_groups": [
+                        "cp_mode8",
+                        "cp_seat_dw"
+                    ]
+                }
+            },
+            "revf": {
+                "remove": {
+                    "component_groups": [
+                        "cp_rev"
+                    ]
+                }
+            },
+            "revb": {
+                "add": {
+                    "component_groups": [
+                        "cp_rev"
+                    ]
+                }
+            },
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "cp_seat_up"
+                    ]
+                }
+            }
+        }
+    }
+}
