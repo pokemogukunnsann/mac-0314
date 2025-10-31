@@ -1,0 +1,35 @@
+item.spawn_egg.entity.mtc:mtc0585_1.name=武蔵野線風車両v1.0 Car1
+item.spawn_egg.entity.mtc:mtc0585_2.name=武蔵野線風車両v1.0 Car2
+item.spawn_egg.entity.mtc:mtc0585_3.name=武蔵野線風車両v1.0 Car3
+item.spawn_egg.entity.mtc:mtc0585_4.name=武蔵野線風車両v1.0 Car4
+item.spawn_egg.entity.mtc:mtc0585_5.name=武蔵野線風車両v1.0 Car5
+
+action.hint.exit.mtc:mtc0585_1=ジャンプで降りる
+action.hint.exit.mtc:mtc0585_2=ジャンプで降りる
+action.hint.exit.mtc:mtc0585_3=ジャンプで降りる
+action.hint.exit.mtc:mtc0585_4=ジャンプで降りる
+action.hint.exit.mtc:mtc0585_5=ジャンプで降りる
+
+mtc:mtc0585.Mode1=幕1
+mtc:mtc0585.Mode2=幕2
+mtc:mtc0585.Mode3=幕3
+mtc:mtc0585.Mode4=幕4
+mtc:mtc0585.Mode5=幕5
+mtc:mtc0585.Mode6=幕6
+mtc:mtc0585.Mode7=幕7
+mtc:mtc0585.Mode8=幕8
+
+mtc:mtc0585.Horn1=CP起動
+mtc:mtc0585.Horn2=乗降促進
+mtc:mtc0585.Horn3=警笛鳴動
+mtc:mtc0585.Horn4=未使用
+mtc:mtc0585.Horn5=未使用
+
+mtc:mtc0585.Ani1=未使用(先頭車貫通扉開閉)
+mtc:mtc0585.Ani2=未使用(後尾車貫通扉開閉)
+mtc:mtc0585.Ani3=未使用(扇風機起動)
+mtc:mtc0585.Ani4=総武線
+mtc:mtc0585.Ani5=消灯
+mtc:mtc0585.Ani6=成田線
+mtc:mtc0585.Ani7=回送
+mtc:mtc0585.Ani8=ワイパー

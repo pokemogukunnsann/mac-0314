@@ -1,0 +1,10 @@
+{
+  "entity_emissive:entity": {
+    "defines": [ "USE_EMISSIVE" ]
+  },
+
+  "slime_outer:entity": {
+    "defines": [ "USE_EMISSIVE" ],
+    "states": [ "Blending" ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mtc0585_1.mtc0585_1_ct1": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        {
+                            "open_left": "query.variant==1 || query.variant==3"
+                        },
+                        {
+                            "open_right": "query.variant==2 || query.variant==3"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "tr_close_left": "query.variant==11&&query.any_animation_finished"
+                        },
+                        {
+                            "tr_close_right": "query.variant==12&&query.any_animation_finished"
+                        },
+                        {
+                            "tr_close_both": "query.variant==13&&query.any_animation_finished"
+                        }
+                    ]
+                },
+                "tr_close_right": {
+                    "animations": [
+                        "close_right"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.any_animation_finished"
+                        }
+                    ]
+                },
+                "tr_close_left": {
+                    "animations": [
+                        "close_left"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.any_animation_finished"
+                        }
+                    ]
+                },
+                "tr_close_both": {
+                    "animations": [
+                        "close_left",
+                        "close_right"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.any_animation_finished"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc0585_1.mtc0585_1_ct2": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        {
+                            "mode1": "query.mark_variant==1"
+                        },
+                        {
+                            "mode2": "query.mark_variant==2"
+                        },
+                        {
+                            "mode3": "query.mark_variant==3"
+                        },
+                        {
+                            "mode4": "query.mark_variant==4"
+                        },
+                        {
+                            "mode5": "query.mark_variant==5"
+                        },
+                        {
+                            "mode6": "query.mark_variant==6"
+                        },
+                        {
+                            "mode7": "query.mark_variant==7"
+                        },
+                        {
+                            "mode8": "query.mark_variant==8"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc0585_1.mtc0585_1_ct4": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "wiper": "query.is_in_water_or_rain"
+                        }
+                    ]
+                },
+                "wiper": {
+                    "animations": [
+                        "wiper"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.any_animation_finished"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc0585_1.mtc0585_1_ct5": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        {
+                            "revinv": "query.can_fly==1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Ver.2.0.0 Based on MEVKforMTC Made by Tokiwa collaborator by edogawa(keisei),lufthaboeing747(mikawa) ",
+        "name":"武蔵野線風車両v1.0",
+        "uuid": "156c03f6-2c17-3013-2a0c-daf69dfce501",
+        "version": [2, 0, 0],
+        "min_engine_version": [1, 19, 50]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "09884fda-dbad-43bf-4c2f-f22c4cfc1a67",
+            "version": [2, 0, 0]
+        }
+    ]
+}
