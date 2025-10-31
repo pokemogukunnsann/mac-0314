@@ -2,7 +2,7 @@
     "format_version": "1.13.0",
     "minecraft:entity": {
         "description": {
-            "identifier": "mtc:mtc0585_2",
+            "identifier": "mtc:mtc0314_2",
             "is_spawnable": true,
             "is_summonable": true,
             "is_experimental": false,
@@ -347,8 +347,8 @@
                 ]
             },
             "minecraft:collision_box": {
-                "width": 1.1,
-                "height": 3.0
+                "width": 20.0,
+                "height": 4.0
             },
             "minecraft:scale": {
                 "value": 1
