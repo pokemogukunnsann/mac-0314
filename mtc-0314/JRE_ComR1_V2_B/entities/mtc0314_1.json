@@ -2,14 +2,14 @@
     "format_version": "1.13.0",
     "minecraft:entity": {
         "description": {
-            "identifier": "mtc:mtc0585_1",
+            "identifier": "mtc:mtc0314_1",
             "is_spawnable": true,
             "is_summonable": true,
             "is_experimental": false,
             "animations": {
-                "door_controller": "controller.animation.mtc0585_1",
-                "trace_controller": "controller.animation.mtc0585_1_trace",
-                "spawn_controller": "controller.animation.mtc0585_1_spawn"
+                "door_controller": "controller.animation.mtc0314_1",
+                "trace_controller": "controller.animation.mtc0314_1_trace",
+                "spawn_controller": "controller.animation.mtc0314_1_spawn"
             },
             "scripts": {
                 "animate": [
@@ -337,8 +337,8 @@
                 ]
             },
             "minecraft:collision_box": {
-                "width": 1.1,
-                "height": 3.0
+                "width": 20.0,
+                "height": 4.0
             },
             "minecraft:scale": {
                 "value": 1
