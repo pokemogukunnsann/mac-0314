@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Ver.2.0.0 Based on MEVKforMTC Made by Tokiwa collaborator by edogawa(keisei),lufthaboeing747(mikawa)",
-        "name": "武蔵野線風車両v1.0",
-        "uuid": "02992ea4-ed17-f1ee-466b-11fee04098db",
+        "description": "Ver.1.0 リニア by かかおまめ",
+        "name": "リニア風車両v1.0",
+        "uuid": "02992ea4-ed17-f1ee-466b-91fee04098db",
         "version": [2, 0, 0],
         "min_engine_version": [1, 19, 50]
     },
@@ -11,8 +11,9 @@
         {
             "description": "",
             "type": "data",
-            "uuid": "9f68862d-e060-f5f3-b768-595bb20d0995",
+            "uuid": "9f68862d-e060-f5f3-b768-095bb20d0995",
             "version": [2, 0, 0]
         }
     ]
+
 }
